@@ -147,8 +147,7 @@ no.addEventListener("touchstart", function(e) {
 no.addEventListener("click", escapeButton);
 
 yes.addEventListener("click", function() {
-    document.getElementById("question").textContent =
-        "ОНА СКАЗАЛА ДАААА! 💍❤️";
+    document.getElementById("question").style.display = "none";
 
     document.getElementById("buttons").style.display = "none";
     document.getElementById("message").style.display = "block";
